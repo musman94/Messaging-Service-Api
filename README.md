@@ -49,5 +49,5 @@ The routes are defined in their respective controllers. You can read more about 
 The application uses jwt token based authentication. Once the user logins, they are provided with the jwt token in reponse which they need to provide in any subsequent requests. Otherwise they won't be authorized to request something from the application. The only endpoints that are free from the jwt authorization requirement are the login and signup endpoints. The login endpoint, however still authenticates the user using their username and password. All of the authentication and jwt authrization functionality is present in the `security` package. Furthermore, everytime a user tries to login, the login attempts are saved using the `AuthenticationEventHandler` and the user can see this information by requesting the `getLoginHistory` endpoint.   
 
 ## Testing
-All of the tests are located in the `src/main/test/java/com.app` package. The test coverage rightnow is 44% as I was only able to test the service layer.
+All of the tests are located in the `src/main/test/java/com.app` package. The test coverage rightnow is 41% as I was only able to test the service layer.
 
