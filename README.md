@@ -35,14 +35,14 @@ A Repository is an abstraction of the data layer and only it interacts directly 
 ## API
 The routes are defined in their respective controllers. You can read more about each of the endpoints by clicking on their names. 
 
-|Name                                                       |route                 
-|-----------------------------------------------------------|------------------------------------------------------|
-[signUp](documentation/auth/signUp.md)                      |/api/v1/auth.signUp                                   |
-[login](documentation/auth/login.md)                        |/api/v1/auth.login                                    |         
-[sendMessage](documentation/message/sendMessage.md)         |/api/v1/message/sendMessage                           |
-[getMessageHistory](documentation/user/getMessageHistory.md) |/api/v1/message/getMessageHistory?username={username}|             
-[block](documentation/user/block.md)                        |/api/v1/user/block                                    |
-[getLoginHistory](documentation/user/getLoginHistory.md)    |/api/v1/user/getLoginHistory?username={username}      |
+|Name                                                           |route                 
+|---------------------------------------------------------------|------------------------------------------------------|
+[signUp](documentation/auth/signUp.md)                          |/api/v1/auth.signUp                                   |
+[login](documentation/auth/login.md)                            |/api/v1/auth.login                                    |         
+[sendMessage](documentation/message/sendMessage.md)             |/api/v1/message/sendMessage                           |
+[getMessageHistory](documentation/message/getMessageHistory.md) |/api/v1/message/getMessageHistory?username={username} |             
+[block](documentation/user/block.md)                            |/api/v1/user/block                                    |
+[getLoginHistory](documentation/user/getLoginHistory.md)        |/api/v1/user/getLoginHistory?username={username}      |
 
 
 ## Authentication
